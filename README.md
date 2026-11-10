@@ -1,5 +1,5 @@
 
-# Spendwise 💸\
+# Spendwise 💸
 
 A full stack personal expense tracker built with the MERN stack. Track your daily expenses, categorize spending, and monitor your total spend — all behind a secure JWT-authenticated account.
 
