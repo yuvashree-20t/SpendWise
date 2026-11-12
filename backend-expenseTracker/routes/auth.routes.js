@@ -9,7 +9,7 @@ const authMiddleware = require('../middlware/auth.middleware')
 authRouter.post("/signup", async (req, res) => {
   try {
     const user = await authModel.findOne({ email: req.body.email });
-
+ 
     if (user) {
       return res
         .status(500)
