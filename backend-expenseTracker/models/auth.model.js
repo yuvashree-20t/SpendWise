@@ -6,7 +6,7 @@ const authSchema = mongoose.Schema({
             email:{type:String, require:true, lowercase: true},
             password:{type:String, require:true},
 
-}, {timestamp:true})
+}, {timestamp:true}) 
 
 
 
