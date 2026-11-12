@@ -9,7 +9,7 @@ const connectDB = async() => {
             console.log('💔Database - unable to connect',error.message)
             
         }
-
+  
     
 }
 
